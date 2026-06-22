@@ -39,6 +39,7 @@ use context7
 - LLM Runtime: Ollama
 
 # 3. 전체 연동 구조
+```
 User Browser
   ↓
 React Frontend
@@ -48,9 +49,10 @@ FastAPI Backend
 Ollama
   ↓
 Local Language Model
+```
 
 # 4. 프론트엔드, React 컴포넌트 구조
-
+```
 src/
 ├── api/
 │   └── chatApi.js          # API 호출 로직
@@ -64,7 +66,7 @@ src/
 ├── main.jsx                # React 렌더링
 ├── App.css                 # 앱 스타일
 └── index.css               # 전역 스타일
-
+```
       
 # 5. 환경변수의 파일
 .env
